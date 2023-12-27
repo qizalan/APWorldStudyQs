@@ -11,7 +11,7 @@ const data = {
 	// }
 };
 
-const files = globSync('Period*/**/*.txt');
+const files = globSync('Period*/**/*.txt').reverse();
 
 files.forEach(f => {
 	const [ period, unit, topicTXT ] = f.split('/');
@@ -34,4 +34,4 @@ files.forEach(f => {
 	data[period][unit][topic] = questions;
 });
 
-writeFileSync('./questions.json', JSON.stringify(data, null, '\t'), 'utf-8');
+writeFileSync('./questions.json', JSON.stringify(data), 'utf-8');
