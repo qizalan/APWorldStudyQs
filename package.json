@@ -1,0 +1,10 @@
+{
+  "name": "apworldstudyqs",
+  "version": "1.0.0",
+  "description": "Because I'm horrible at SMCQs :(",
+  "main": "build.js",
+  "author": "",
+  "dependencies": {
+    "glob": "^10.3.10"
+  }
+}
