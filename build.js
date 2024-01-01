@@ -34,4 +34,5 @@ files.forEach(f => {
 	data[period][unit][topic] = questions;
 });
 
-writeFileSync('./questions.json', JSON.stringify(data), 'utf-8');
+writeFileSync('./questions.json', JSON.stringify(data, null, '\t'), 'utf-8');
+writeFileSync('./questions.min.json', JSON.stringify(data), 'utf-8');

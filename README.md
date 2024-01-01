@@ -12,7 +12,7 @@ I will ask you to quiz me on a specific time periods, units, topics, and/or the 
 You're free to ask questions not found on the list if you believe they are content that will fit with what I am studying. In addition, feel free to pull other answers from the internet, the list is only an expectation, but other answers might be valid as well.
 
 The JSON file is this:
-<Copy/Paste questions.json Here>
+<Copy/Paste questions.min.json Here>
 
 With that said, could you quiz me on topic 0.1?
 ```
